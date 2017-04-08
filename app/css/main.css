@@ -1,12 +1,34 @@
 button {
+  color: none;
+  background-color: transparent;
+  border: none;
+  letter-spacing: 0.125em; }
+
+.outer-circle {
   border-radius: 50%;
   border: none;
   height: 250px;
   width: 250px;
   position: relative;
   background-color: #F7F7F7;
-  color: #717171;
+  color: #A4A4A4;
   line-height: 1; }
+  .outer-circle:hover {
+    background-color: #3C3C3C;
+    color: #fff;
+    -webkit-transition: background-color 250ms linear;
+    color: 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    color: 250ms linear;
+    transition: background-color 250ms linear;
+    color: 250ms linear; }
+    .outer-circle:hover #day {
+      background-color: transparent; }
+    .outer-circle:hover .fa-gavel {
+      background-color: transparent;
+      color: #fff; }
+    .outer-circle:hover .inner-circle {
+      border: none; }
 
 .inner-circle {
   border-radius: 50%;
@@ -16,9 +38,7 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -110px 0 0 -110px;
-  display: flex;
-  flex-direction: column; }
+  margin: -110px 0 0 -110px; }
 
 #day {
   font-size: 2em;
@@ -27,8 +47,7 @@ button {
   padding: 0;
   display: block;
   background-color: #F7F7F7;
-  width: 50px;
-  z-index: 100; }
+  width: 50px; }
 
 #date {
   font-size: 8em;
@@ -39,13 +58,19 @@ button {
   font-size: 2.25em;
   text-transform: uppercase;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-weight: 300; }
 
-.gavel {
-  height: 45px;
+.fa-gavel {
   padding: 0;
   margin: 30px auto 0;
   display: block;
   background-color: #F7F7F7;
   border-radius: 10%;
   width: 60px; }
+
+#time {
+  padding-left: 20px;
+  color: #A4A4A4;
+  font-size: 1.75em;
+  letter-spacing: 0.125em; }

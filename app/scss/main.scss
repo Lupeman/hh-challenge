@@ -1,10 +1,16 @@
 $button-background: #F7F7F7;
 $light-grey: #E0E1DC;
-$med-grey: #717171;
+$med-grey: #A4A4A4;
 $dark-grey: #3C3C3C;
 $white: #fff;
 
 button {
+  color: none;
+  background-color: transparent;
+  border: none;
+  letter-spacing: 0.125em;
+}
+.outer-circle {
   border-radius: 50%;
   border: none;
   height: 250px;
@@ -13,8 +19,27 @@ button {
   background-color: $button-background;
   color: $med-grey;
   line-height: 1;
+  &:hover {
+    background-color: $dark-grey;
+    color: $white;
+    -webkit-transition: background-color 250ms linear;
+    color: 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    color: 250ms linear;
+    transition: background-color 250ms linear;
+    color: 250ms linear;
+    & #day {
+      background-color: transparent;
+    }
+    & .fa-gavel {
+      background-color: transparent;
+      color: #fff;
+    }
+    & .inner-circle {
+      border: none;
+    }
+  }
 }
-
 
 .inner-circle {
   border-radius: 50%;
@@ -25,8 +50,6 @@ button {
   top: 50%;
   left: 50%;
   margin: -110px 0 0 -110px;
-  display: flex;
-  flex-direction: column;
 }
 
 #day {
@@ -37,8 +60,6 @@ button {
   display: block;
   background-color: $button-background;
   width: 50px;
-  z-index: 100;
-
 }
 
 #date {
@@ -52,14 +73,21 @@ button {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
-.gavel {
-  height: 45px;
+.fa-gavel {
   padding: 0;
   margin: 30px auto 0;
   display: block;
   background-color: $button-background;
   border-radius: 10%;
   width: 60px;
+}
+
+#time {
+  padding-left:20px;
+  color: $med-grey;
+  font-size: 1.75em;
+  letter-spacing: 0.125em;
 }
