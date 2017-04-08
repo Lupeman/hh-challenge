@@ -4,7 +4,9 @@ button {
   height: 250px;
   width: 250px;
   position: relative;
-  background-color: #F7F7F7; }
+  background-color: #F7F7F7;
+  color: #717171;
+  line-height: 1; }
 
 .inner-circle {
   border-radius: 50%;
@@ -14,7 +16,36 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -110px 0 0 -110px; }
+  margin: -110px 0 0 -110px;
+  display: flex;
+  flex-direction: column; }
+
+#day {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: -10px auto;
+  padding: 0;
+  display: block;
+  background-color: #F7F7F7;
+  width: 50px;
+  z-index: 100; }
+
+#date {
+  font-size: 8em;
+  padding: 0;
+  margin: 40px 0 0 0; }
+
+#month {
+  font-size: 2.25em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
 
 .gavel {
-  border: blue; }
+  height: 45px;
+  padding: 0;
+  margin: 30px auto 0;
+  display: block;
+  background-color: #F7F7F7;
+  border-radius: 10%;
+  width: 60px; }
