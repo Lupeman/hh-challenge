@@ -1,0 +1,20 @@
+button {
+  border-radius: 50%;
+  border: none;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  background-color: #F7F7F7; }
+
+.inner-circle {
+  border-radius: 50%;
+  border: 1px dashed #E0E1DC;
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -110px 0 0 -110px; }
+
+.gavel {
+  border: blue; }
