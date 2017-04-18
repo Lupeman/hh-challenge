@@ -37,27 +37,37 @@ button {
       background-color: $dark-grey;
       color: #fff;
     }
-    & .inner-circle {
-      border: none;
+    & .border-circle {
+      transform: scale(1.119);
     }
   }
 }
 
-.inner-circle {
+.border-circle {
   border-radius: 50%;
   border: 1px dashed $light-grey;
   height: 220px;
   width: 220px;
   position:absolute;
-  top: 50%;
-  left: 50%;
+  top: 49.5%;
+  left: 49.5%;
+  margin: -110px 0 0 -110px;
+  transition: transform 0.2s;
+}
+
+.inner-circle {
+  height: 220px;
+  width: 220px;
+  position:absolute;
+  top: 49.5%;
+  left: 49.5%;
   margin: -110px 0 0 -110px;
 }
 
 #day {
   font-size: 2em;
   text-transform: uppercase;
-  margin: -10px auto;
+  margin: -5px auto;
   padding: 0;
   border-radius: 10%;
   display: block;
@@ -88,7 +98,7 @@ button {
 
 .fa-gavel {
   padding: 0;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   display: block;
   background-color: $button-background;
   border-radius: 10%;
