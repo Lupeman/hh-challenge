@@ -17,6 +17,8 @@ button {
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
   color: 250ms linear;
+  -moz-ransition: background-color 250ms linear;
+  color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
   .outer-circle:hover {
@@ -62,6 +64,8 @@ button {
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
   color: 250ms linear;
+  -moz-ransition: background-color 250ms linear;
+  color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
 
@@ -87,6 +91,8 @@ button {
   -webkit-transition: background-color 250ms linear;
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
+  color: 250ms linear;
+  -moz-ransition: background-color 250ms linear;
   color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
