@@ -12,20 +12,20 @@ button {
   position: relative;
   background-color: #F7F7F7;
   color: #A4A4A4;
-  line-height: 1; }
+  line-height: 1;
+  -webkit-transition: background-color 250ms linear;
+  color: 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  color: 250ms linear;
+  transition: background-color 250ms linear;
+  color: 250ms linear; }
   .outer-circle:hover {
     background-color: #3C3C3C;
-    color: #fff;
-    -webkit-transition: background-color 250ms linear;
-    color: 250ms linear;
-    -ms-transition: background-color 250ms linear;
-    color: 250ms linear;
-    transition: background-color 250ms linear;
-    color: 250ms linear; }
+    color: #fff; }
     .outer-circle:hover #day {
-      background-color: transparent; }
+      background-color: #3C3C3C; }
     .outer-circle:hover .fa-gavel {
-      background-color: transparent;
+      background-color: #3C3C3C;
       color: #fff; }
     .outer-circle:hover .inner-circle {
       border: none; }
@@ -45,9 +45,16 @@ button {
   text-transform: uppercase;
   margin: -10px auto;
   padding: 0;
+  border-radius: 10%;
   display: block;
   background-color: #F7F7F7;
-  width: 50px; }
+  width: 80px;
+  -webkit-transition: background-color 250ms linear;
+  color: 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  color: 250ms linear;
+  transition: background-color 250ms linear;
+  color: 250ms linear; }
 
 #date {
   font-size: 8em;
@@ -67,7 +74,13 @@ button {
   display: block;
   background-color: #F7F7F7;
   border-radius: 10%;
-  width: 60px; }
+  width: 60px;
+  -webkit-transition: background-color 250ms linear;
+  color: 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  color: 250ms linear;
+  transition: background-color 250ms linear;
+  color: 250ms linear; }
 
 #time {
   padding-left: 20px;
