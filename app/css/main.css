@@ -17,20 +17,24 @@ button {
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
   color: 250ms linear;
-  -moz-ransition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
   color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
-  .outer-circle:hover {
-    background-color: #3C3C3C;
-    color: #fff; }
-    .outer-circle:hover #day {
-      background-color: #3C3C3C; }
-    .outer-circle:hover .fa-gavel {
-      background-color: #3C3C3C;
-      color: #fff; }
-    .outer-circle:hover .border-circle {
-      transform: scale(1.119); }
+
+button:hover .outer-circle {
+  background-color: #3C3C3C;
+  color: #fff; }
+
+button:hover .outer-circle #day {
+  background-color: #3C3C3C; }
+
+button:hover .outer-circle .fa-gavel {
+  background-color: #3C3C3C;
+  color: #fff; }
+
+button:hover .outer-circle .border-circle {
+  transform: scale(1.119); }
 
 .border-circle {
   border-radius: 50%;
@@ -64,7 +68,7 @@ button {
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
   color: 250ms linear;
-  -moz-ransition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
   color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
@@ -92,7 +96,7 @@ button {
   color: 250ms linear;
   -ms-transition: background-color 250ms linear;
   color: 250ms linear;
-  -moz-ransition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
   color: 250ms linear;
   transition: background-color 250ms linear;
   color: 250ms linear; }
