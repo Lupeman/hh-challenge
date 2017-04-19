@@ -25,16 +25,13 @@ button {
 button:hover .outer-circle {
   background-color: #3C3C3C;
   color: #fff; }
-
-button:hover .outer-circle #day {
-  background-color: #3C3C3C; }
-
-button:hover .outer-circle .fa-gavel {
-  background-color: #3C3C3C;
-  color: #fff; }
-
-button:hover .outer-circle .border-circle {
-  transform: scale(1.119); }
+  button:hover .outer-circle #day {
+    background-color: #3C3C3C; }
+  button:hover .outer-circle .fa-gavel {
+    background-color: #3C3C3C;
+    color: #fff; }
+  button:hover .outer-circle .border-circle {
+    transform: scale(1.119); }
 
 .border-circle {
   border-radius: 50%;
